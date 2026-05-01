@@ -9,7 +9,8 @@ export default defineConfig({
     proxy: {
       // This mimics the Vercel proxy for local development
       '/api': {
-        target: 'http://52.62.66.116:8000',
+        // target: 'http://52.62.66.116:8000',
+        target: 'http://54.252.152.52:8000',
         changeOrigin: true,
         secure: false,
       }
